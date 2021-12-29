@@ -13,8 +13,7 @@ END
   s.email = ['m.kristian@web.de']
   s.homepage = 'https://github.com/mkristian/jbundler'
 
-  s.bindir = "bin"
-  s.executables = ['jbundle']
+  s.executable = 'jbundle'
 
   s.license = 'MIT'
 
