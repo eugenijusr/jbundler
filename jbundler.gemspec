@@ -13,11 +13,11 @@ END
   s.email = ['m.kristian@web.de']
   s.homepage = 'https://github.com/mkristian/jbundler'
 
-  s.bindir = "bin"
-  s.executables = ['jbundle']
+  s.executables = 'jbundle'
 
   s.license = 'MIT'
-
+  
+  s.files += Dir['bin/*.rb']
   s.files += Dir['lib/**/*.rb']
   s.files += Dir['spec/*.rb']
   s.files += Dir['spec/*/*'].delete_if { |f| f =~ /~$/ }
